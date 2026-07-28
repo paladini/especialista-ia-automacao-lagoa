@@ -1,0 +1,23 @@
+---
+import { problems } from '../data/content';
+---
+
+<section id="problemas" class="section problems" aria-labelledby="problemas-title">
+  <div class="container reveal">
+    <span class="section-label">Situações comuns</span>
+    <h2 id="problemas-title">Problemas que posso ajudar a resolver</h2>
+    <p class="section-intro">
+      Se você se identifica com algum destes cenários na Lagoa da Conceição, Campeche, Rio Tavares
+      ou Leste da Ilha, provavelmente consigo ajudar — começamos com uma conversa no WhatsApp ou
+      presencial.
+    </p>
+    <ul class="problems-list">
+      {problems.map((item) => (
+        <li class="problem-item">
+          <h3>{item.title}</h3>
+          <p>{item.description}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

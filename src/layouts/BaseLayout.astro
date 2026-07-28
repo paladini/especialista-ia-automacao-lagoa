@@ -32,12 +32,14 @@ const jsonLd = buildJsonLd();
     <meta property="og:description" content={description} />
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:site_name" content={site.brand} />
-    <meta property="og:image" content={`${site.url}/og-image.svg`} />
+    <meta property="og:image" content={asset('og-image.svg')} />
+    <meta property="og:image:alt" content="Especialista IA Lagoa — consultoria em inteligência artificial no Leste da Ilha, Florianópolis" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={asset('og-image.svg')} />
+    <meta name="twitter:image:alt" content="Especialista IA Lagoa — consultoria em IA no Leste da Ilha" />
 
     <meta name="geo.region" content="BR-SC" />
     <meta name="geo.placename" content="Lagoa da Conceição, Florianópolis" />

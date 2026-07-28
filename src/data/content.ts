@@ -2,21 +2,27 @@ export const repoName = 'especialista-ia-automacao-lagoa';
 
 export const site = {
   brand: 'Especialista IA Lagoa',
-  tagline: 'Inteligência artificial, sites, apps e automação na Lagoa da Conceição',
+  tagline:
+    'Consultoria em IA, sites, apps, vibe coding e automação no Leste da Ilha, Florianópolis',
   url: `https://paladini.io/${repoName}`,
   locale: 'pt-BR',
-  title: 'Especialista em IA na Lagoa da Conceição | Sites, Apps e Automação',
+  title:
+    'Especialista em IA na Lagoa da Conceição | Vibe Coding, Sites, Apps e Automação',
   description:
-    'Consultoria em IA, criação de sites e apps com inteligência artificial, manutenção de vibe coding e automação de fluxos na Lagoa da Conceição e Leste da Ilha, Florianópolis. Fale no WhatsApp.',
+    'Fernando Paladini, Staff AI Engineer, atende Lagoa da Conceição, Rio Tavares, Campeche e Leste da Ilha. Manutenção de Lovable, Cursor, Codex e Claude; produtização de apps com IA; consultoria e automação. Presencial ou WhatsApp.',
   keywords: [
     'especialista IA Lagoa da Conceição',
-    'inteligência artificial Florianópolis',
-    'automação Leste da Ilha',
-    'vibe coding manutenção',
-    'criar site com IA',
-    'app com IA',
-    'consultoria IA WhatsApp',
-    'produtos digitais IA',
+    'vibe coding Florianópolis',
+    'manutenção Lovable Cursor Codex',
+    'consultoria inteligência artificial Leste da Ilha',
+    'criar site com IA Campeche',
+    'app com IA Rio Tavares',
+    'automação WhatsApp Florianópolis',
+    'produtização app IA',
+    'manutenção código gerado por IA',
+    'GitHub Copilot consultoria',
+    'Staff AI Engineer Florianópolis',
+    'desenvolvedor IA Barra da Lagoa',
   ],
 } as const;
 
@@ -44,70 +50,149 @@ export function whatsappLink(message?: string): string {
 
 export const navLinks = [
   { href: '#servicos', label: 'Serviços' },
+  { href: '#problemas', label: 'Problemas' },
   { href: '#bairros', label: 'Bairros' },
   { href: '#sobre', label: 'Sobre' },
   { href: '#faq', label: 'FAQ' },
 ] as const;
 
 export const hero = {
-  eyebrow: 'Atendimento local',
-  headline: 'IA na sua região, sem complicação',
+  eyebrow: 'Atendimento local · Leste da Ilha',
+  headline: 'IA e vibe coding com quem já fez isso em escala',
   subheadline:
-    'A Lagoa da Conceição é um dos bairros mais dinâmicos de Florianópolis — e cada negócio aqui merece tecnologia que funciona de verdade. Ajudo pessoas e empresas da região a resolver problemas com inteligência artificial, sites, apps e automação.',
-  note: 'Fernando Paladini atende na Lagoa da Conceição e arredores (Costa da Lagoa, Itacorubi, Canto da Lagoa). Presencial ou remoto, com resposta rápida pelo WhatsApp.',
+    'Precisa de ajuda com um site no Lovable, um app no Cursor ou um fluxo que trava no meio do caminho? Sou desenvolvedor há mais de 13 anos — com passagem por Mercado Livre, Grupo Boticário e formação em IA na BNY Mellon — e hoje atendo pessoas e negócios da Lagoa, Campeche, Rio Tavares e região.',
+  note: 'Atendo presencialmente quando faz sentido: posso ir até você para entender a dor, revisar o código ou planejar o próximo passo do produto. Remoto também, com resposta rápida no WhatsApp.',
 } as const;
 
 export const services = [
   {
     title: 'Consultoria em IA',
     description:
-      'Diagnóstico claro do seu problema, indicação de ferramentas e plano prático — sem jargão desnecessário.',
+      'Entendo o seu contexto, separo o que é hype do que resolve, e monto um plano claro — ferramenta, arquitetura, custo e prioridade.',
   },
   {
     title: 'Sites e apps com IA',
     description:
-      'Criação e correção de sites e aplicativos feitos com Cursor, Claude, ChatGPT e outras ferramentas de vibe coding.',
+      'Crio ou corrijo landing pages, MVPs e ferramentas feitas com Lovable, v0, Bolt, Cursor, Claude Code, Codex, Windsurf e ChatGPT.',
   },
   {
     title: 'Manutenção de vibe coding',
     description:
-      'Seu projeto de IA parou de funcionar, ficou lento ou difícil de evoluir? Organizo, corrijo e deixo sustentável.',
+      'Código gerado por IA que quebrou, ficou lento ou impossível de evoluir? Organizo, corrijo e deixo em condições de crescer.',
+  },
+  {
+    title: 'Produtização e próximos passos',
+    description:
+      'Ajudo a tirar o protótipo do ar e colocar no mundo: deploy, domínio, pagamentos, SEO, métricas e o que falta para vender ou operar.',
   },
   {
     title: 'Automação de fluxos',
     description:
-      'Integrações, bots, rotinas repetitivas e processos manuais transformados em fluxos automáticos confiáveis.',
+      'Integrações, bots, rotinas repetitivas e processos manuais viram fluxos automáticos — n8n, APIs, webhooks e scripts sob medida.',
   },
   {
-    title: 'Produtos digitais',
+    title: 'Mentoria prática com IA',
     description:
-      'Landing pages, ferramentas internas, MVPs e produtos digitais prontos para vender ou operar no dia a dia.',
+      'Sessões para você ou sua equipe aprenderem a usar IA no dia a dia, com pair programming e orientação sobre ferramentas reais.',
+  },
+] as const;
+
+export const problems = [
+  {
+    title: 'Site no Lovable ou v0 que não publica direito',
+    description:
+      'Domínio, deploy, formulário, SEO básico ou integração que não funciona — reviso e deixo no ar.',
   },
   {
-    title: 'Mentoria com IA',
+    title: 'App no Cursor ou Claude Code cheio de bugs',
     description:
-      'Sessões práticas para você ou sua equipe aprenderem a usar IA no trabalho — pair programming incluído.',
+      'Erros de autenticação, banco de dados, API ou layout quebrado após vibe coding acelerado.',
+  },
+  {
+    title: 'Projeto de IA sem rumo depois do MVP',
+    description:
+      'Você tem um protótipo, mas não sabe o próximo passo: hospedar, cobrar, medir ou escalar com segurança.',
+  },
+  {
+    title: 'Código gerado que ninguém entende mais',
+    description:
+      'Refatoração, documentação mínima e organização para você ou outro dev conseguirem continuar.',
+  },
+  {
+    title: 'Automação manual que consome tempo',
+    description:
+      'Planilhas, copy-paste, atendimento repetitivo ou integração entre WhatsApp, CRM e ferramentas do negócio.',
+  },
+  {
+    title: 'Dúvida sobre qual ferramenta de IA usar',
+    description:
+      'Lovable vs Cursor vs Codex vs n8n — indico o caminho certo para o seu caso, sem empurrar moda.',
+  },
+  {
+    title: 'Landing page sem aparecer no Google',
+    description:
+      'Ajustes de SEO e GEO para buscas locais na Lagoa, Campeche, Rio Tavares e Florianópolis.',
+  },
+  {
+    title: 'Produto digital que precisa ir além do chat com IA',
+    description:
+      'Do prompt ao produto: fluxo de usuário, backend, persistência de dados e publicação.',
   },
 ] as const;
 
 export const neighborhoods = [
   { name: 'Lagoa da Conceição', primary: true },
-  { name: 'Costa da Lagoa', primary: false },
-  { name: 'Itacorubi', primary: false },
+  { name: 'Rio Tavares', primary: false },
+  { name: 'Campeche', primary: false },
+  { name: 'Barra da Lagoa', primary: false },
   { name: 'Canto da Lagoa', primary: false },
+  { name: 'Canto dos Araçás', primary: false },
+  { name: 'Porto da Lagoa', primary: false },
+  { name: 'Costa da Lagoa', primary: false },
 ] as const;
 
 export const about = {
   title: 'Quem está por trás',
+  intro:
+    'Sou Fernando Paladini, Staff AI Engineer com formação em Ciência da Computação pela UFSC e mais de 13 anos construindo software — de startups em Florianópolis a times de engenharia com milhares de desenvolvedores.',
   paragraphs: [
-    'Sou Fernando Paladini, Staff AI Engineer com mais de 13 anos de experiência em software, open source e plataformas de inteligência artificial. Moro em Florianópolis e atendo a região da Lagoa com foco em soluções práticas — não em promessas vazias.',
-    'Criei projetos como o mcp-me (camada de identidade para assistentes de IA), voice-separator, echo-transcribe e diversos guias open source de SEO e GEO. Escrevo sobre vibe coding, IA e automação no Medium e mantenho dezenas de repositórios públicos.',
+    'No Grupo Boticário, atuei como Developer Specialist em DevEx e adoção de GenAI para uma organização de mais de 3.000 desenvolvedores — GitHub Copilot, governança de IA, automações e analytics de engenharia. Antes, passei pelo Mercado Livre (logística em Go), Conviso (segurança de aplicações), 1Doc e Adroit (GovTech), além de startups como AllNighter e projetos próprios em open source.',
+    'Também participei de iniciativas de IA na BNY Mellon (Learn at BNY) e mantenho projetos como o mcp-me — camada de identidade para assistentes de IA —, voice-separator, echo-transcribe e guias open source de SEO e GEO. Escrevo sobre vibe coding e IA no Medium.',
+    'Na região da Lagoa, meu foco é traduzir essa experiência corporativa em ajuda prática: entender sua dor, consertar o que travou e orientar os próximos passos — sem prometer milagre e sem complicar.',
   ],
   highlights: [
-    '13+ anos em software e plataformas',
-    'Criador do mcp-me e projetos open source de IA',
-    '47 artigos sobre IA, vibe coding e automação',
-    'Formação UFSC · Florianópolis',
+    'Staff AI Engineer · 13+ anos em software',
+    'Mercado Livre, Grupo Boticário e formação em IA na BNY Mellon',
+    'Startups e GovTech: 1Doc, AllNighter, Conviso, Adroit',
+    'Criador do mcp-me · dezenas de projetos open source',
+    'Certificação Microsoft GitHub Copilot — GH-300 (válida até 2028)',
+  ],
+  education: [
+    {
+      title: 'Bacharelado em Ciência da Computação',
+      institution: 'Universidade Federal de Santa Catarina (UFSC)',
+    },
+    {
+      title: 'Pesquisa de iniciação científica (IoT, Big Data, ML)',
+      institution: 'LISHA / UFSC',
+    },
+  ],
+  certifications: [
+    {
+      title: 'Microsoft GitHub Copilot Certified — GH-300',
+      detail: 'Válida de maio/2026 a maio/2028',
+    },
+    {
+      title: 'Introduction to AI Agents',
+      detail: 'DataCamp · iniciativa Learn at BNY (BNY Mellon)',
+    },
+  ],
+  courses: [
+    'Big Data (Coursera · UC San Diego) — integração, modelagem e processamento',
+    'Introduction to DevOps (Microsoft · edX)',
+    'Intro to Python for Data Science (DataCamp)',
+    'The Data Scientist’s Toolbox (Johns Hopkins · Coursera)',
+    'Digital Marketing Automation (Udemy)',
   ],
   links: [
     { label: 'GitHub', href: 'https://github.com/paladini' },
@@ -117,36 +202,54 @@ export const about = {
   ],
 } as const;
 
+export const aiToolsMention =
+  'Lovable, v0, Bolt, Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, ChatGPT, Replit, n8n e MCP';
+
 export const faq = [
   {
-    question: 'Você atende IA na Lagoa da Conceição?',
+    question: 'Você atende na Lagoa da Conceição e no Leste da Ilha?',
     answer:
-      'Sim! A Lagoa da Conceição é a área principal de atendimento. Atendo presencialmente quando faz sentido e remotamente para a maior parte dos projetos — sempre com comunicação direta pelo WhatsApp.',
+      'Sim. Atendo Lagoa da Conceição, Rio Tavares, Campeche, Barra da Lagoa, Canto da Lagoa, Canto dos Araçás, Porto da Lagoa, Costa da Lagoa e arredores. Quando o projeto pede, vou até o local para conversarmos pessoalmente.',
   },
   {
-    question: 'Quais bairros próximos à Lagoa são atendidos?',
+    question: 'Faz manutenção de projetos feitos no Lovable, Cursor ou Codex?',
     answer:
-      'Além da Lagoa da Conceição, atendo Costa da Lagoa, Itacorubi e Canto da Lagoa. Se você está no Leste da Ilha e não encontrou seu bairro na lista, mande uma mensagem — confirmo na hora.',
+      'Esse é um dos serviços mais comuns. Corrijo bugs, melhoro deploy, organizo código gerado por Lovable, Cursor, Claude Code, Codex, Windsurf, v0, Bolt ou ChatGPT, e deixo o projeto sustentável para evoluir.',
   },
   {
-    question: 'Ajuda com site ou app feito no Cursor ou outra IA?',
+    question: 'Ajuda a produtizar um app ou site feito com vibe coding?',
     answer:
-      'Esse é um dos serviços mais pedidos. Corrijo bugs, melhoro performance, organizo o código gerado por vibe coding e deixo o projeto pronto para evoluir com segurança.',
+      'Sim. Além de consertar o que quebrou, ajudo com os próximos passos: publicar, conectar domínio, SEO, integrações, pagamentos, métricas e decisões sobre o que priorizar no produto.',
   },
   {
-    question: 'Como funciona a consultoria em inteligência artificial?',
+    question: 'Como funciona o atendimento presencial na região?',
     answer:
-      'Começo entendendo seu problema e contexto. Depois indico a melhor abordagem — ferramenta certa, automação, produto digital ou mentoria — com estimativa clara de escopo e próximos passos.',
+      'Você me conta o contexto pelo WhatsApp e combinamos um horário. Posso ir até você na Lagoa, Campeche, Rio Tavares ou bairros próximos para entender a dor, ver o código ou planejar o app — sem compromisso de contrato longo na primeira conversa.',
   },
   {
-    question: 'Como agendar atendimento na região?',
+    question: 'Você orienta qual ferramenta de IA devo usar?',
     answer:
-      'Pelo WhatsApp! Informe o que você precisa (site, app, automação, consultoria IA) e seu bairro na Lagoa ou Leste da Ilha. Respondo rápido e combinamos horário.',
+      'Sim. Dependendo do caso, Lovable ou v0 podem bastar para uma landing; Cursor ou Codex funcionam melhor para apps com lógica; n8n para automação. Explico trade-offs de forma direta, sem empurrar ferramenta cara desnecessária.',
   },
   {
-    question: 'Você faz automação de processos para negócios locais?',
+    question: 'Quem é Fernando Paladini e qual a experiência dele?',
+    answer:
+      'Sou Staff AI Engineer, formado em Ciência da Computação pela UFSC, com passagem por Mercado Livre, Grupo Boticário (DevEx e GenAI para 3.000+ devs), Conviso, 1Doc, Adroit e formação em IA na BNY Mellon. Certificado GitHub Copilot GH-300 e criador do mcp-me.',
+  },
+  {
+    question: 'Resolve problemas de site que não aparece no Google?',
+    answer:
+      'Sim. Faço ajustes de SEO e GEO — títulos, descrições, estrutura, dados estruturados e conteúdo local — para melhorar visibilidade em buscas na Lagoa da Conceição, Campeche, Rio Tavares e Florianópolis.',
+  },
+  {
+    question: 'Faz automação com n8n, APIs e WhatsApp?',
     answer:
       'Sim. Integro sistemas, automatizo tarefas repetitivas e crio fluxos que economizam tempo — desde atendimento até rotinas internas de pequenos negócios e profissionais autônomos.',
+  },
+  {
+    question: 'Como agendar uma conversa?',
+    answer:
+      'Pelo WhatsApp (48) 99845-9684. Informe o que você precisa — site, app, manutenção de vibe coding, automação ou consultoria — e seu bairro. Respondo rápido e combinamos presencial ou remoto.',
   },
 ] as const;
 
@@ -171,7 +274,7 @@ export function buildJsonLd() {
       '@id': `${site.url}/#business`,
       name: site.brand,
       description: site.description,
-      url: site.url,
+      url: `${site.url}/`,
       telephone: contact.phoneE164,
       email: contact.email,
       image: `${site.url}/og-image.svg`,
@@ -194,9 +297,13 @@ export function buildJsonLd() {
       knowsAbout: [
         'Inteligência Artificial',
         'Vibe Coding',
+        'Lovable',
+        'Cursor',
+        'GitHub Copilot',
         'Automação',
-        'Desenvolvimento Web',
-        'Produtos Digitais',
+        'Produtização de software',
+        'SEO local',
+        'Florianópolis',
       ],
     },
     {
@@ -210,11 +317,32 @@ export function buildJsonLd() {
       telephone: contact.phoneE164,
       sameAs: [...socialLinks],
       worksFor: { '@id': `${site.url}/#business` },
+      alumniOf: {
+        '@type': 'CollegeOrUniversity',
+        name: 'Universidade Federal de Santa Catarina',
+        sameAs: 'https://ufsc.br',
+      },
+      hasCredential: [
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Microsoft GitHub Copilot Certified — GH-300',
+          credentialCategory: 'certification',
+        },
+        {
+          '@type': 'EducationalOccupationalCredential',
+          name: 'Introduction to AI Agents (DataCamp · BNY Mellon)',
+          credentialCategory: 'certification',
+        },
+      ],
       knowsAbout: [
         'Artificial Intelligence',
-        'Model Context Protocol',
         'Vibe Coding',
+        'Lovable',
+        'Cursor',
+        'Codex',
+        'Model Context Protocol',
         'Open Source',
+        'Developer Experience',
       ],
     },
     {

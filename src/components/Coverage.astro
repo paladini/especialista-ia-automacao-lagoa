@@ -7,8 +7,9 @@ import { neighborhoods, whatsappLink } from '../data/content';
     <span class="section-label">Área de cobertura</span>
     <h2 id="bairros-title">Bairros atendidos no Leste da Ilha</h2>
     <p class="section-intro">
-      Atendimento na Lagoa da Conceição e região do Leste de Florianópolis — presencial ou remoto,
-      conforme o projeto.
+      Atendimento na Lagoa da Conceição, Rio Tavares, Campeche e região do Leste de Florianópolis.
+      Quando faz sentido, vou até o local para entender o problema, revisar o projeto ou planejar
+      o app — presencial ou remoto.
     </p>
     <ul class="neighborhood-list">
       {neighborhoods.map((n) => (
@@ -22,7 +23,11 @@ import { neighborhoods, whatsappLink } from '../data/content';
     </ul>
     <p class="coverage-note">
       Não encontrou seu bairro?
-      <a href={whatsappLink('Olá! Moro no Leste da Ilha e gostaria de saber se você atende minha região.')} rel="noopener noreferrer" target="_blank">
+      <a
+        href={whatsappLink('Olá! Moro no Leste da Ilha e gostaria de saber se você atende minha região.')}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
         Fale no WhatsApp
       </a>
       — confirmamos na hora.

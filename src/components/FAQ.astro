@@ -5,12 +5,18 @@ import { faq } from '../data/content';
 <section id="faq" class="section" aria-labelledby="faq-title">
   <div class="container reveal">
     <span class="section-label">Dúvidas frequentes</span>
-    <h2 id="faq-title">Perguntas sobre atendimento na Lagoa da Conceição</h2>
-    <div class="faq-list">
-      {faq.map((item) => (
-        <details class="faq-item">
-          <summary>{item.question}</summary>
-          <p class="faq-answer">{item.answer}</p>
+    <h2 id="faq-title">Perguntas sobre IA, vibe coding e atendimento local</h2>
+    <p class="section-intro faq-intro">
+      Respostas sobre manutenção de Lovable, Cursor, Codex, produtização, atendimento presencial na
+      Lagoa da Conceição, Campeche, Rio Tavares e consultoria em inteligência artificial.
+    </p>
+    <div class="faq-list" role="list">
+      {faq.map((item, index) => (
+        <details class="faq-item" role="listitem">
+          <summary id={`faq-q-${index}`}>{item.question}</summary>
+          <div class="faq-answer" aria-labelledby={`faq-q-${index}`}>
+            <p>{item.answer}</p>
+          </div>
         </details>
       ))}
     </div>

@@ -1,12 +1,15 @@
 ---
-import { site, hero, whatsappLink } from '../data/content';
+import { hero, site, whatsappLink } from '../data/content';
 ---
 
-<section class="hero" aria-labelledby="hero-brand">
+<section class="hero" aria-labelledby="hero-heading">
   <div class="container hero-grid">
     <div class="hero-content reveal">
       <p class="section-label">{hero.eyebrow}</p>
-      <h1 id="hero-brand" class="hero-brand">{site.brand}</h1>
+      <h1 id="hero-heading" class="hero-heading">
+        <span class="hero-brand">{site.brand}</span>
+        <span class="hero-location">na Lagoa da Conceição e Leste da Ilha</span>
+      </h1>
       <p class="hero-headline">{hero.headline}</p>
       <p class="hero-sub">{hero.subheadline}</p>
       <p class="hero-note">{hero.note}</p>
@@ -20,11 +23,12 @@ import { site, hero, whatsappLink } from '../data/content';
     <figure class="hero-visual reveal">
       <img
         src={`${import.meta.env.BASE_URL}hero-lagoa.svg`}
-        alt="Vista estilizada da Lagoa da Conceição em Florianópolis — região de atendimento do Especialista IA Lagoa"
+        alt=""
         width="800"
         height="600"
         fetchpriority="high"
         decoding="async"
+        role="presentation"
       />
       <figcaption class="hero-visual-caption">
         Lagoa da Conceição · Florianópolis, SC

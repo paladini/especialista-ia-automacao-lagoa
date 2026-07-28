@@ -1,6 +1,6 @@
 # Especialista IA Lagoa
 
-> Consultoria em inteligência artificial, sites, apps e automação na Lagoa da Conceição e Leste da Ilha, Florianópolis-SC.
+> Consultoria em inteligência artificial, vibe coding, sites, apps e automação no Leste da Ilha, Florianópolis-SC. Atendimento presencial ou remoto.
 
 ## About
 
@@ -10,39 +10,72 @@
 - Portfolio: https://paladini.io
 - Contact: WhatsApp +55 48 99845-9684
 - Email: fnpaladini@gmail.com
-- Location: Lagoa da Conceição, Florianópolis, Santa Catarina, Brazil
+- Location: Leste da Ilha, Florianópolis, Santa Catarina, Brazil
+
+## Professional background
+
+- 13+ years in software engineering
+- Staff AI Engineer
+- Grupo Boticário: Developer Specialist, DevEx and GenAI for 3,000+ developers
+- Mercado Livre: logistics systems (Go)
+- BNY Mellon: AI Agents certification via Learn at BNY program
+- Startups and GovTech: 1Doc, AllNighter, Conviso, Adroit
+- UFSC Computer Science degree
+- Microsoft GitHub Copilot Certified — GH-300 (valid until May 2028)
+- Creator of mcp-me and open-source AI tools
 
 ## Services
 
 - AI consulting and problem diagnosis
-- Websites and apps built with AI / vibe coding (create and fix)
-- Vibe coding maintenance (Cursor, Claude, ChatGPT projects)
-- Workflow and process automation
-- Digital products with AI
+- Websites and apps with Lovable, v0, Bolt, Cursor, Claude Code, Codex, Windsurf, ChatGPT
+- Vibe coding maintenance and bug fixes
+- Productization: deploy, domain, SEO, next steps
+- Workflow automation (n8n, APIs, webhooks, WhatsApp)
 - AI mentoring and pair programming
 
-## Service Area
+## Problems solved
+
+- Lovable/v0 sites that won't deploy or rank on Google
+- Cursor/Codex apps with auth, database or API bugs
+- AI MVPs stuck without a clear next step
+- Unmaintainable generated code
+- Manual repetitive business processes
+- Tool selection (Lovable vs Cursor vs n8n)
+- Local SEO/GEO for Florianópolis neighborhoods
+
+## Service area (in-person available)
 
 - Lagoa da Conceição (primary)
-- Costa da Lagoa
-- Itacorubi
+- Rio Tavares
+- Campeche
+- Barra da Lagoa
 - Canto da Lagoa
+- Canto dos Araçás
+- Porto da Lagoa
+- Costa da Lagoa
 - Leste da Ilha, Florianópolis
+
+## AI tools supported
+
+Lovable, v0, Bolt, Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, ChatGPT, Replit, n8n, MCP
 
 ## Keywords
 
-especialista IA Lagoa da Conceição, inteligência artificial Florianópolis, automação Leste da Ilha, vibe coding manutenção, criar site com IA, app com IA, consultoria IA WhatsApp, produtos digitais IA
+especialista IA Lagoa da Conceição, vibe coding Florianópolis, manutenção Lovable Cursor Codex, consultoria IA Campeche, app com IA Rio Tavares, produtização vibe coding, automação Leste da Ilha
 
 ## FAQ
 
-Q: Do you serve Lagoa da Conceição?
-A: Yes. Lagoa da Conceição is the primary service area. In-person when it makes sense, remote for most projects.
+Q: Do you fix Lovable or Cursor projects?
+A: Yes. Maintenance, bugs, deploy, and sustainable evolution for vibe-coded projects.
 
-Q: Can you fix AI-generated websites?
-A: Yes. Bug fixes, performance, and sustainable maintenance for vibe coding projects.
+Q: Do you help productize AI prototypes?
+A: Yes. Next steps: hosting, domain, SEO, integrations, payments, metrics.
 
-Q: How to contact?
-A: WhatsApp at +55 48 99845-9684 or https://wa.me/5548998459684
+Q: In-person meetings?
+A: Yes in Lagoa, Campeche, Rio Tavares and nearby neighborhoods when useful.
+
+Q: Contact?
+A: WhatsApp +55 48 99845-9684 — https://wa.me/5548998459684
 
 ## Open Source
 

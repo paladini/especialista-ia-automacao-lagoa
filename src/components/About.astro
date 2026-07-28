@@ -1,5 +1,5 @@
 ---
-import { about, contact } from '../data/content';
+import { about, contact, aiToolsMention } from '../data/content';
 ---
 
 <section id="sobre" class="section" aria-labelledby="sobre-title">
@@ -7,29 +7,67 @@ import { about, contact } from '../data/content';
     <div class="reveal">
       <span class="section-label">Sobre</span>
       <h2 id="sobre-title">{about.title}</h2>
+      <p class="section-intro about-intro">{about.intro}</p>
     </div>
     <div class="about-grid">
       <div class="reveal">
         {about.paragraphs.map((p) => (
           <p>{p}</p>
         ))}
-        <ul class="about-highlights">
+        <ul class="about-highlights" aria-label="Destaques profissionais">
           {about.highlights.map((h) => (
             <li>{h}</li>
           ))}
         </ul>
+
+        <div class="about-block">
+          <h3 class="about-subtitle">Formação</h3>
+          <ul class="about-detail-list">
+            {about.education.map((item) => (
+              <li>
+                <strong>{item.title}</strong>
+                <span>{item.institution}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="about-block">
+          <h3 class="about-subtitle">Certificações</h3>
+          <ul class="about-detail-list">
+            {about.certifications.map((item) => (
+              <li>
+                <strong>{item.title}</strong>
+                <span>{item.detail}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div class="about-block">
+          <h3 class="about-subtitle">Cursos e capacitação</h3>
+          <ul class="about-courses">
+            {about.courses.map((course) => (
+              <li>{course}</li>
+            ))}
+          </ul>
+        </div>
+
         <nav class="about-links" aria-label="Links profissionais">
           {about.links.map((link) => (
             <a href={link.href} rel="noopener noreferrer" target="_blank">{link.label}</a>
           ))}
         </nav>
       </div>
-      <aside class="about-card reveal">
+      <aside class="about-card reveal" aria-label="Resumo do profissional">
         <p class="about-card-name">{contact.name}</p>
         <p class="about-card-role">Staff AI Engineer · Open Source</p>
         <p>
-          Especialista em IA aplicada, vibe coding e automação. Atendo a região da Lagoa da
-          Conceição com foco em resultados práticos para negócios e profissionais locais.
+          Especialista em IA aplicada, vibe coding e automação. Atendo o Leste da Ilha com foco em
+          resolver problemas reais — do protótipo travado ao produto no ar.
+        </p>
+        <p class="about-tools">
+          <strong>Ferramentas que trabalho:</strong> {aiToolsMention}.
         </p>
       </aside>
     </div>
