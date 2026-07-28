@@ -159,7 +159,7 @@ export const neighborhoods = [
 export const about = {
   title: 'Quem está por trás',
   intro:
-    'Sou Fernando Paladini, Staff AI Engineer com formação em Ciência da Computação pela UFSC e mais de 13 anos construindo software — de startups em Florianópolis a times de engenharia com milhares de desenvolvedores.',
+    'Sou Fernando Paladini, Staff AI Engineer com formação em Análise e Desenvolvimento de Sistemas pela UDESC e mais de 13 anos construindo software — de startups em Florianópolis a times de engenharia com milhares de desenvolvedores.',
   paragraphs: [
     'No Grupo Boticário, atuei como Developer Specialist em DevEx e adoção de GenAI para uma organização de mais de 3.000 desenvolvedores — GitHub Copilot, governança de IA, automações e analytics de engenharia. Antes, passei pelo Mercado Livre (logística em Go), Mercado Bitcoin (backend em fintech), Conviso (segurança de aplicações), 1Doc e Adroit (GovTech), além de startups como AllNighter e projetos próprios em open source.',
     'Na região da Lagoa, meu foco é traduzir essa experiência corporativa em ajuda prática: entender sua dor, consertar o que travou e orientar os próximos passos — sem prometer milagre e sem complicar.',
@@ -181,8 +181,8 @@ export const about = {
   ],
   education: [
     {
-      title: 'Bacharelado em Ciência da Computação',
-      institution: 'Universidade Federal de Santa Catarina (UFSC)',
+      title: 'Análise e Desenvolvimento de Sistemas',
+      institution: 'Universidade do Estado de Santa Catarina (UDESC)',
     },
     {
       title: 'Pesquisa de iniciação científica (IoT, Big Data, ML)',
@@ -246,7 +246,7 @@ export const faq = [
   {
     question: 'Quem é Fernando Paladini e qual a experiência dele?',
     answer:
-      'Sou Staff AI Engineer, formado em Ciência da Computação pela UFSC, com passagem por Mercado Livre, Mercado Bitcoin, Grupo Boticário (DevEx e GenAI para 3.000+ devs), Conviso, 1Doc, Adroit e curso de AI Agents na BNY Mellon. Certificado GitHub Copilot GH-300 e criador do mcp-me.',
+      'Sou Staff AI Engineer, formado em Análise e Desenvolvimento de Sistemas pela UDESC, com passagem por Mercado Livre, Mercado Bitcoin, Grupo Boticário (DevEx e GenAI para 3.000+ devs), Conviso, 1Doc, Adroit e curso de AI Agents na BNY Mellon. Certificado GitHub Copilot GH-300 e criador do mcp-me.',
   },
   {
     question: 'Resolve problemas de site que não aparece no Google?',
@@ -331,8 +331,8 @@ export function buildJsonLd() {
       worksFor: { '@id': `${site.url}/#business` },
       alumniOf: {
         '@type': 'CollegeOrUniversity',
-        name: 'Universidade Federal de Santa Catarina',
-        sameAs: 'https://ufsc.br',
+        name: 'Universidade do Estado de Santa Catarina',
+        sameAs: 'https://www.udesc.br',
       },
       hasCredential: [
         {
