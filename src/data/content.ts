@@ -65,7 +65,7 @@ export const hero = {
   },
   tagline: 'IA e vibe coding com quem já fez isso em escala',
   subheadline:
-    'Precisa de ajuda com um site no Lovable, um app no Cursor ou um fluxo que trava no meio do caminho? Sou desenvolvedor há mais de 13 anos — com passagem por Mercado Livre, Mercado Bitcoin, Grupo Boticário e BNY Mellon — e hoje atendo pessoas e negócios da Lagoa, Campeche, Rio Tavares e região.',
+    'Precisa de ajuda com um site no Lovable, um app no Cursor ou um fluxo que trava no meio do caminho? Sou desenvolvedor há mais de 13 anos — com passagem por Mercado Livre, Mercado Bitcoin, Grupo Boticário e BNY Mellon — e hoje também atendo pessoas e negócios de Florianópolis, como consultor especialista em IA e automação, com foco na Lagoa, Campeche, Rio Tavares e Leste da Ilha.',
   note: 'Atendo presencialmente quando faz sentido: posso ir até você para entender a dor, revisar o código ou planejar o próximo passo do produto. Remoto também, com resposta rápida no WhatsApp.',
 } as const;
 
