@@ -1,0 +1,20 @@
+{
+  "name": "especialista-ia-automacao-lagoa",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Landing page local para serviços de IA na Lagoa da Conceição — open source",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paladini/especialista-ia-automacao-lagoa"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.3.1",
+    "astro": "^5.7.10"
+  }
+}

@@ -1,0 +1,50 @@
+# Especialista IA Lagoa
+
+> Consultoria em inteligência artificial, sites, apps e automação na Lagoa da Conceição e Leste da Ilha, Florianópolis-SC.
+
+## About
+
+- Name: Especialista IA Lagoa
+- Provider: Fernando Paladini, Staff AI Engineer
+- Website: https://paladini.io/especialista-ia-automacao-lagoa/
+- Portfolio: https://paladini.io
+- Contact: WhatsApp +55 48 99845-9684
+- Email: fnpaladini@gmail.com
+- Location: Lagoa da Conceição, Florianópolis, Santa Catarina, Brazil
+
+## Services
+
+- AI consulting and problem diagnosis
+- Websites and apps built with AI / vibe coding (create and fix)
+- Vibe coding maintenance (Cursor, Claude, ChatGPT projects)
+- Workflow and process automation
+- Digital products with AI
+- AI mentoring and pair programming
+
+## Service Area
+
+- Lagoa da Conceição (primary)
+- Costa da Lagoa
+- Itacorubi
+- Canto da Lagoa
+- Leste da Ilha, Florianópolis
+
+## Keywords
+
+especialista IA Lagoa da Conceição, inteligência artificial Florianópolis, automação Leste da Ilha, vibe coding manutenção, criar site com IA, app com IA, consultoria IA WhatsApp, produtos digitais IA
+
+## FAQ
+
+Q: Do you serve Lagoa da Conceição?
+A: Yes. Lagoa da Conceição is the primary service area. In-person when it makes sense, remote for most projects.
+
+Q: Can you fix AI-generated websites?
+A: Yes. Bug fixes, performance, and sustainable maintenance for vibe coding projects.
+
+Q: How to contact?
+A: WhatsApp at +55 48 99845-9684 or https://wa.me/5548998459684
+
+## Open Source
+
+- Repository: https://github.com/paladini/especialista-ia-automacao-lagoa
+- License: MIT

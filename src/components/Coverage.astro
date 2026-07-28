@@ -1,0 +1,31 @@
+---
+import { neighborhoods, whatsappLink } from '../data/content';
+---
+
+<section id="bairros" class="section coverage" aria-labelledby="bairros-title">
+  <div class="container reveal">
+    <span class="section-label">Área de cobertura</span>
+    <h2 id="bairros-title">Bairros atendidos no Leste da Ilha</h2>
+    <p class="section-intro">
+      Atendimento na Lagoa da Conceição e região do Leste de Florianópolis — presencial ou remoto,
+      conforme o projeto.
+    </p>
+    <ul class="neighborhood-list">
+      {neighborhoods.map((n) => (
+        <li class={`neighborhood-item${n.primary ? ' primary' : ''}`}>
+          <div>
+            {n.primary && <span class="neighborhood-badge">Área principal</span>}
+            <span class="neighborhood-name">{n.name}</span>
+          </div>
+        </li>
+      ))}
+    </ul>
+    <p class="coverage-note">
+      Não encontrou seu bairro?
+      <a href={whatsappLink('Olá! Moro no Leste da Ilha e gostaria de saber se você atende minha região.')} rel="noopener noreferrer" target="_blank">
+        Fale no WhatsApp
+      </a>
+      — confirmamos na hora.
+    </p>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+---
+import { contact, whatsappLink } from '../data/content';
+---
+
+<section class="section cta-band" aria-labelledby="cta-title">
+  <div class="container reveal">
+    <span class="section-label" style="color: oklch(0.82 0.04 190);">Atendemos na Lagoa da Conceição</span>
+    <h2 id="cta-title">Agende agora pelo WhatsApp</h2>
+    <p>
+      Seu projeto com IA começa com uma mensagem. Resposta rápida, conversa direta com {contact.name}.
+    </p>
+    <a class="btn btn-primary" href={whatsappLink()} rel="noopener noreferrer" target="_blank">
+      Falar no WhatsApp — {contact.phoneDisplay}
+    </a>
+  </div>
+</section>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none" role="img" aria-label="Lagoa da Conceição">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8ecec"/>
+      <stop offset="60%" stop-color="#f0ebe0"/>
+      <stop offset="100%" stop-color="#e8dcc8"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6ab4b4"/>
+      <stop offset="100%" stop-color="#2d6a6a"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a8a6a"/>
+      <stop offset="100%" stop-color="#3d6a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <!-- distant hills -->
+  <path d="M0 320 Q200 260 400 290 T800 270 L800 420 L0 420 Z" fill="#8ab898" opacity="0.5"/>
+  <path d="M0 350 Q250 300 500 330 T800 310 L800 450 L0 450 Z" fill="url(#hill)" opacity="0.7"/>
+  <!-- lagoon water -->
+  <path d="M0 380 Q200 360 400 375 T800 365 L800 600 L0 600 Z" fill="url(#water)" opacity="0.85"/>
+  <!-- water shimmer -->
+  <path d="M50 420 Q200 410 350 425 T650 415 T800 430" stroke="#9ed8d8" stroke-width="2" opacity="0.4" fill="none"/>
+  <path d="M80 460 Q230 450 380 465 T730 455" stroke="#b8e8e8" stroke-width="1.5" opacity="0.3" fill="none"/>
+  <!-- subtle sun -->
+  <circle cx="680" cy="120" r="50" fill="#f0d898" opacity="0.6"/>
+  <circle cx="680" cy="120" r="70" fill="#f0d898" opacity="0.15"/>
+</svg>

@@ -1,0 +1,22 @@
+---
+import { services } from '../data/content';
+---
+
+<section id="servicos" class="section" aria-labelledby="servicos-title">
+  <div class="container reveal">
+    <span class="section-label">Serviços disponíveis</span>
+    <h2 id="servicos-title">O que fazemos na Lagoa da Conceição</h2>
+    <p class="section-intro">
+      Soluções de inteligência artificial, sites, apps e automação para quem mora ou trabalha no
+      Leste da Ilha — com atendimento direto e linguagem clara.
+    </p>
+    <div class="services-grid">
+      {services.map((service) => (
+        <article class="service-item">
+          <h3>{service.title}</h3>
+          <p>{service.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

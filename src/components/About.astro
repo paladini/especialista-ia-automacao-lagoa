@@ -1,0 +1,37 @@
+---
+import { about, contact } from '../data/content';
+---
+
+<section id="sobre" class="section" aria-labelledby="sobre-title">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Sobre</span>
+      <h2 id="sobre-title">{about.title}</h2>
+    </div>
+    <div class="about-grid">
+      <div class="reveal">
+        {about.paragraphs.map((p) => (
+          <p>{p}</p>
+        ))}
+        <ul class="about-highlights">
+          {about.highlights.map((h) => (
+            <li>{h}</li>
+          ))}
+        </ul>
+        <nav class="about-links" aria-label="Links profissionais">
+          {about.links.map((link) => (
+            <a href={link.href} rel="noopener noreferrer" target="_blank">{link.label}</a>
+          ))}
+        </nav>
+      </div>
+      <aside class="about-card reveal">
+        <p class="about-card-name">{contact.name}</p>
+        <p class="about-card-role">Staff AI Engineer · Open Source</p>
+        <p>
+          Especialista em IA aplicada, vibe coding e automação. Atendo a região da Lagoa da
+          Conceição com foco em resultados práticos para negócios e profissionais locais.
+        </p>
+      </aside>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,34 @@
+---
+import { site, hero, whatsappLink } from '../data/content';
+---
+
+<section class="hero" aria-labelledby="hero-brand">
+  <div class="container hero-grid">
+    <div class="hero-content reveal">
+      <p class="section-label">{hero.eyebrow}</p>
+      <h1 id="hero-brand" class="hero-brand">{site.brand}</h1>
+      <p class="hero-headline">{hero.headline}</p>
+      <p class="hero-sub">{hero.subheadline}</p>
+      <p class="hero-note">{hero.note}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href={whatsappLink()} rel="noopener noreferrer" target="_blank">
+          Falar no WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+      </div>
+    </div>
+    <figure class="hero-visual reveal">
+      <img
+        src={`${import.meta.env.BASE_URL}hero-lagoa.svg`}
+        alt="Vista estilizada da Lagoa da Conceição em Florianópolis — região de atendimento do Especialista IA Lagoa"
+        width="800"
+        height="600"
+        fetchpriority="high"
+        decoding="async"
+      />
+      <figcaption class="hero-visual-caption">
+        Lagoa da Conceição · Florianópolis, SC
+      </figcaption>
+    </figure>
+  </div>
+</section>

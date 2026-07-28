@@ -1,0 +1,40 @@
+---
+import { site, contact, socialLinks } from '../data/content';
+
+const socialLabels: Record<string, string> = {
+  'github.com': 'GitHub',
+  'linkedin.com': 'LinkedIn',
+  'medium.com': 'Medium',
+  'paladini.io': 'paladini.io',
+  'instagram.com': 'Instagram',
+};
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">{site.brand}</p>
+      <address class="footer-nap" style="font-style: normal;">
+        <strong>{contact.name}</strong><br />
+        {contact.location.neighborhood} · {contact.location.city}-{contact.location.state}<br />
+        {contact.location.region}, {contact.location.country}<br />
+        <a href={`tel:${contact.phoneE164}`}>{contact.phoneDisplay}</a><br />
+        <a href={contact.whatsappUrl} rel="noopener noreferrer" target="_blank">WhatsApp</a> ·
+        <a href={`mailto:${contact.email}`}>{contact.email}</a>
+      </address>
+    </div>
+    <nav class="footer-links" aria-label="Redes sociais">
+      {socialLinks.map((url) => {
+        const host = new URL(url).hostname.replace('www.', '');
+        const label = socialLabels[host] ?? host;
+        return <a href={url} rel="noopener noreferrer" target="_blank">{label}</a>;
+      })}
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>
+      Open source · <a href="https://github.com/paladini/especialista-ia-automacao-lagoa" rel="noopener noreferrer" target="_blank">MIT License</a>
+      · {site.url}
+    </p>
+  </div>
+</footer>
