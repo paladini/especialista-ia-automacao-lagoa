@@ -17,8 +17,7 @@
 - 13+ years in software engineering
 - Staff AI Engineer
 - Grupo Boticário: Developer Specialist, DevEx and GenAI for 3,000+ developers
-- Mercado Livre: logistics systems (Go)
-- BNY Mellon: AI Agents certification via Learn at BNY program
+- Mercado Livre, Mercado Bitcoin, BNY Mellon (AI Agents course)
 - Startups and GovTech: 1Doc, AllNighter, Conviso, Adroit
 - UFSC Computer Science degree
 - Microsoft GitHub Copilot Certified — GH-300 (valid until May 2028)

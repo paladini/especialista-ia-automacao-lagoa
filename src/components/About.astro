@@ -1,5 +1,7 @@
 ---
 import { about, contact, aiToolsMention } from '../data/content';
+
+const links = about.openSourceLinks;
 ---
 
 <section id="sobre" class="section" aria-labelledby="sobre-title">
@@ -10,10 +12,24 @@ import { about, contact, aiToolsMention } from '../data/content';
       <p class="section-intro about-intro">{about.intro}</p>
     </div>
     <div class="about-grid">
-      <div class="reveal">
-        {about.paragraphs.map((p) => (
-          <p>{p}</p>
-        ))}
+      <div class="about-body reveal">
+        <p>{about.paragraphs[0]}</p>
+        <p>
+          Na BNY Mellon, fiz o curso <em>Introduction to AI Agents</em> (DataCamp). Mantenho projetos
+          open source como{' '}
+          <a href={links.mcpMe.href} rel="noopener noreferrer" target="_blank">{links.mcpMe.label}</a>
+          {' '}(camada de identidade para assistentes de IA),{' '}
+          <a href={links.voiceSeparator.href} rel="noopener noreferrer" target="_blank">{links.voiceSeparator.label}</a>,{' '}
+          <a href={links.echoTranscribe.href} rel="noopener noreferrer" target="_blank">{links.echoTranscribe.label}</a>
+          {' '}e os guias open source de{' '}
+          <a href={links.seoGuide.href} rel="noopener noreferrer" target="_blank">{links.seoGuide.label}</a>
+          {' '}e{' '}
+          <a href={links.geoGuide.href} rel="noopener noreferrer" target="_blank">{links.geoGuide.label}</a>.
+          Escrevo sobre vibe coding e IA no{' '}
+          <a href={links.medium.href} rel="noopener noreferrer" target="_blank">{links.medium.label}</a>.
+        </p>
+        <p>{about.paragraphs[1]}</p>
+
         <ul class="about-highlights" aria-label="Destaques profissionais">
           {about.highlights.map((h) => (
             <li>{h}</li>

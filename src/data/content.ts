@@ -58,9 +58,14 @@ export const navLinks = [
 
 export const hero = {
   eyebrow: 'Atendimento local · Leste da Ilha',
-  headline: 'IA e vibe coding com quem já fez isso em escala',
+  title: {
+    lead: 'Especialista em IA',
+    place: 'na Lagoa da Conceição',
+    region: 'e Leste da Ilha',
+  },
+  tagline: 'IA e vibe coding com quem já fez isso em escala',
   subheadline:
-    'Precisa de ajuda com um site no Lovable, um app no Cursor ou um fluxo que trava no meio do caminho? Sou desenvolvedor há mais de 13 anos — com passagem por Mercado Livre, Grupo Boticário e formação em IA na BNY Mellon — e hoje atendo pessoas e negócios da Lagoa, Campeche, Rio Tavares e região.',
+    'Precisa de ajuda com um site no Lovable, um app no Cursor ou um fluxo que trava no meio do caminho? Sou desenvolvedor há mais de 13 anos — com passagem por Mercado Livre, Mercado Bitcoin, Grupo Boticário e BNY Mellon — e hoje atendo pessoas e negócios da Lagoa, Campeche, Rio Tavares e região.',
   note: 'Atendo presencialmente quando faz sentido: posso ir até você para entender a dor, revisar o código ou planejar o próximo passo do produto. Remoto também, com resposta rápida no WhatsApp.',
 } as const;
 
@@ -156,13 +161,20 @@ export const about = {
   intro:
     'Sou Fernando Paladini, Staff AI Engineer com formação em Ciência da Computação pela UFSC e mais de 13 anos construindo software — de startups em Florianópolis a times de engenharia com milhares de desenvolvedores.',
   paragraphs: [
-    'No Grupo Boticário, atuei como Developer Specialist em DevEx e adoção de GenAI para uma organização de mais de 3.000 desenvolvedores — GitHub Copilot, governança de IA, automações e analytics de engenharia. Antes, passei pelo Mercado Livre (logística em Go), Conviso (segurança de aplicações), 1Doc e Adroit (GovTech), além de startups como AllNighter e projetos próprios em open source.',
-    'Também participei de iniciativas de IA na BNY Mellon (Learn at BNY) e mantenho projetos como o mcp-me — camada de identidade para assistentes de IA —, voice-separator, echo-transcribe e guias open source de SEO e GEO. Escrevo sobre vibe coding e IA no Medium.',
+    'No Grupo Boticário, atuei como Developer Specialist em DevEx e adoção de GenAI para uma organização de mais de 3.000 desenvolvedores — GitHub Copilot, governança de IA, automações e analytics de engenharia. Antes, passei pelo Mercado Livre (logística em Go), Mercado Bitcoin (backend em fintech), Conviso (segurança de aplicações), 1Doc e Adroit (GovTech), além de startups como AllNighter e projetos próprios em open source.',
     'Na região da Lagoa, meu foco é traduzir essa experiência corporativa em ajuda prática: entender sua dor, consertar o que travou e orientar os próximos passos — sem prometer milagre e sem complicar.',
   ],
+  openSourceLinks: {
+    mcpMe: { label: 'mcp-me', href: 'https://mcp-me.page/' },
+    voiceSeparator: { label: 'voice-separator', href: 'https://github.com/paladini/voice-separator-demucs' },
+    echoTranscribe: { label: 'echo-transcribe', href: 'https://github.com/paladini/echo-transcribe' },
+    seoGuide: { label: 'SEO', href: 'https://github.com/paladini/seo-basics-guide-definitive-edition' },
+    geoGuide: { label: 'GEO', href: 'https://paladini.github.io/generative-engine-optimization-basic-guide/' },
+    medium: { label: 'Medium', href: 'https://medium.com/@fernandopaladini' },
+  },
   highlights: [
     'Staff AI Engineer · 13+ anos em software',
-    'Mercado Livre, Grupo Boticário e formação em IA na BNY Mellon',
+    'Mercado Livre, Mercado Bitcoin, Grupo Boticário e BNY Mellon',
     'Startups e GovTech: 1Doc, AllNighter, Conviso, Adroit',
     'Criador do mcp-me · dezenas de projetos open source',
     'Certificação Microsoft GitHub Copilot — GH-300 (válida até 2028)',
@@ -184,7 +196,7 @@ export const about = {
     },
     {
       title: 'Introduction to AI Agents',
-      detail: 'DataCamp · iniciativa Learn at BNY (BNY Mellon)',
+      detail: 'DataCamp · curso via Learn at BNY (BNY Mellon)',
     },
   ],
   courses: [
@@ -234,7 +246,7 @@ export const faq = [
   {
     question: 'Quem é Fernando Paladini e qual a experiência dele?',
     answer:
-      'Sou Staff AI Engineer, formado em Ciência da Computação pela UFSC, com passagem por Mercado Livre, Grupo Boticário (DevEx e GenAI para 3.000+ devs), Conviso, 1Doc, Adroit e formação em IA na BNY Mellon. Certificado GitHub Copilot GH-300 e criador do mcp-me.',
+      'Sou Staff AI Engineer, formado em Ciência da Computação pela UFSC, com passagem por Mercado Livre, Mercado Bitcoin, Grupo Boticário (DevEx e GenAI para 3.000+ devs), Conviso, 1Doc, Adroit e curso de AI Agents na BNY Mellon. Certificado GitHub Copilot GH-300 e criador do mcp-me.',
   },
   {
     question: 'Resolve problemas de site que não aparece no Google?',
