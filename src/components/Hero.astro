@@ -1,5 +1,7 @@
 ---
 import { hero, whatsappLink } from '../data/content';
+
+const heroImage = `${import.meta.env.BASE_URL}hero-lagoa.jpg`;
 ---
 
 <section class="hero" aria-labelledby="hero-heading">
@@ -23,16 +25,18 @@ import { hero, whatsappLink } from '../data/content';
     </div>
     <figure class="hero-visual reveal">
       <img
-        src={`${import.meta.env.BASE_URL}hero-lagoa.svg`}
-        alt=""
-        width="800"
-        height="600"
+        src={heroImage}
+        alt="Vista da Lagoa da Conceição em Florianópolis, Santa Catarina"
+        width="1280"
+        height="845"
         fetchpriority="high"
         decoding="async"
-        role="presentation"
       />
       <figcaption class="hero-visual-caption">
-        Lagoa da Conceição · Florianópolis, SC
+        <span>Lagoa da Conceição · Florianópolis, SC</span>
+        <span class="hero-photo-credit">
+          Foto: <a href="https://commons.wikimedia.org/wiki/File:Lagoa_da_Concei%C3%A7%C3%A3o.jpg" rel="license noopener noreferrer" target="_blank">Renato M.E. Sabbatini</a> · CC BY-SA 2.5
+        </span>
       </figcaption>
     </figure>
   </div>
